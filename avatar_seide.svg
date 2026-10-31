@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f2f6fb"/>
+      <stop offset="50%" stop-color="#dfe9f5"/>
+      <stop offset="100%" stop-color="#c9daee"/>
+    </linearGradient>
+    <linearGradient id="skinS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fae0cb"/>
+      <stop offset="100%" stop-color="#efc5a4"/>
+    </linearGradient>
+    <linearGradient id="hairS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e2a17"/>
+      <stop offset="100%" stop-color="#2e160a"/>
+    </linearGradient>
+    <linearGradient id="blazerS" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f3a60"/>
+      <stop offset="100%" stop-color="#11223b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="300" height="400" fill="url(#bgS)"/>
+  <circle cx="150" cy="175" r="115" fill="#ffffff" opacity="0.5"/>
+
+  <!-- Back Styled Hair -->
+  <path d="M82 140 C72 195, 76 252, 98 272 L202 272 C224 252, 228 195, 218 140 C212 84, 184 64, 150 64 C116 64, 88 84, 82 140 Z" fill="url(#hairS)"/>
+
+  <!-- Neck -->
+  <path d="M127 225 L127 285 L173 285 L173 225 Z" fill="url(#skinS)"/>
+  <path d="M127 245 Q150 260 173 245 L173 258 Q150 272 127 258 Z" fill="#dfaa85" opacity="0.5"/>
+
+  <!-- Blazer & Cream Blouse -->
+  <path d="M35 400 C40 310, 82 276, 127 272 L150 345 L173 272 C218 276, 260 310, 265 400 Z" fill="url(#blazerS)"/>
+  <path d="M120 272 L150 362 L180 272 Q150 286 120 272 Z" fill="#fdfaf2"/>
+  <!-- Necklace -->
+  <path d="M130 276 Q150 296 170 276" fill="none" stroke="#e5c158" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <!-- Lapels -->
+  <path d="M125 271 L100 318 L124 330 L150 368 L125 271 Z" fill="#162b49"/>
+  <path d="M175 271 L200 318 L176 330 L150 368 L175 271 Z" fill="#162b49"/>
+
+  <!-- Ears -->
+  <ellipse cx="92" cy="172" rx="9.5" ry="14" fill="url(#skinS)"/>
+  <ellipse cx="208" cy="172" rx="9.5" ry="14" fill="url(#skinS)"/>
+  <circle cx="92" cy="186" r="3.5" fill="#f4d03f"/>
+  <circle cx="208" cy="186" r="3.5" fill="#f4d03f"/>
+
+  <!-- Face -->
+  <path d="M95 142 C95 98, 205 98, 205 142 C205 196, 181 237, 150 241 C119 237, 95 196, 95 142 Z" fill="url(#skinS)"/>
+
+  <!-- Blush -->
+  <ellipse cx="116" cy="186" rx="13" ry="7.5" fill="#e68a7b" opacity="0.24"/>
+  <ellipse cx="184" cy="186" rx="13" ry="7.5" fill="#e68a7b" opacity="0.24"/>
+
+  <!-- Eyebrows -->
+  <path d="M110 146 Q124 139 138 145" fill="none" stroke="#3d1f10" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M162 145 Q176 139 190 146" fill="none" stroke="#3d1f10" stroke-width="3.2" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="124" cy="161" rx="8.5" ry="6.5" fill="#ffffff"/>
+  <ellipse cx="176" cy="161" rx="8.5" ry="6.5" fill="#ffffff"/>
+  <circle cx="124" cy="161" r="4.6" fill="#3d2314"/>
+  <circle cx="176" cy="161" r="4.6" fill="#3d2314"/>
+  <circle cx="125.5" cy="159.5" r="1.5" fill="#ffffff"/>
+  <circle cx="177.5" cy="159.5" r="1.5" fill="#ffffff"/>
+
+  <!-- Elegant Academic Glasses -->
+  <rect x="107" y="149" width="34" height="23" rx="8" fill="none" stroke="#b7950b" stroke-width="2.4"/>
+  <rect x="159" y="149" width="34" height="23" rx="8" fill="none" stroke="#b7950b" stroke-width="2.4"/>
+  <path d="M141 159 Q150 156 159 159" fill="none" stroke="#b7950b" stroke-width="2.2"/>
+  <line x1="95" y1="158" x2="107" y2="158" stroke="#b7950b" stroke-width="2"/>
+  <line x1="193" y1="158" x2="205" y2="158" stroke="#b7950b" stroke-width="2"/>
+
+  <!-- Nose -->
+  <path d="M150 163 L148 185 Q150 189 154 186" fill="none" stroke="#c89169" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M134 203 Q150 215 166 203" fill="none" stroke="#b54d45" stroke-width="3.4" stroke-linecap="round"/>
+
+  <!-- Front Hair Side Part -->
+  <path d="M90 148 C88 106, 120 80, 152 82 C186 82, 212 108, 210 148 C200 118, 172 104, 136 108 C112 112, 98 128, 90 148 Z" fill="url(#hairS)"/>
+</svg>
+

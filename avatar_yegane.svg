@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" width="300" height="400">
+  <defs>
+    <linearGradient id="bgY" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8f1f8"/>
+      <stop offset="50%" stop-color="#d4e4f2"/>
+      <stop offset="100%" stop-color="#bfd6eb"/>
+    </linearGradient>
+    <linearGradient id="skinY" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9dcc4"/>
+      <stop offset="100%" stop-color="#eec19e"/>
+    </linearGradient>
+    <linearGradient id="hairY" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3b2314"/>
+      <stop offset="100%" stop-color="#221208"/>
+    </linearGradient>
+    <linearGradient id="blazerY" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b4f72"/>
+      <stop offset="100%" stop-color="#0f2f46"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="300" height="400" fill="url(#bgY)"/>
+  <circle cx="150" cy="175" r="115" fill="#ffffff" opacity="0.45"/>
+
+  <!-- Back Hair -->
+  <path d="M78 135 C65 200, 72 265, 92 285 L208 285 C228 265, 235 200, 222 135 C215 80, 185 62, 150 62 C115 62, 85 80, 78 135 Z" fill="url(#hairY)"/>
+
+  <!-- Neck & Shoulders -->
+  <path d="M126 225 L126 285 L174 285 L174 225 Z" fill="url(#skinY)"/>
+  <path d="M126 245 Q150 262 174 245 L174 260 Q150 275 126 260 Z" fill="#dfa982" opacity="0.55"/>
+
+  <!-- Blazer & Blouse -->
+  <path d="M35 400 C40 310, 82 276, 126 272 L150 340 L174 272 C218 276, 260 310, 265 400 Z" fill="url(#blazerY)"/>
+  <!-- White Blouse V-neck -->
+  <path d="M118 272 L150 365 L182 272 Q150 285 118 272 Z" fill="#ffffff"/>
+  <!-- Silk Scarf / Collar Detail -->
+  <path d="M128 274 L150 328 L172 274" fill="none" stroke="#d4ac0d" stroke-width="3" opacity="0.8"/>
+  <!-- Blazer Lapels -->
+  <path d="M124 271 L102 315 L125 328 L150 368 L124 271 Z" fill="#133b57"/>
+  <path d="M176 271 L198 315 L175 328 L150 368 L176 271 Z" fill="#133b57"/>
+  <!-- Gold Academic Brooch -->
+  <circle cx="188" cy="332" r="6" fill="#f1c40f" stroke="#b7950b" stroke-width="1.5"/>
+
+  <!-- Ears -->
+  <ellipse cx="91" cy="172" rx="10" ry="15" fill="url(#skinY)"/>
+  <ellipse cx="209" cy="172" rx="10" ry="15" fill="url(#skinY)"/>
+  <!-- Pearl Earrings -->
+  <circle cx="91" cy="187" r="4" fill="#fffdf7" stroke="#d4ac0d" stroke-width="1"/>
+  <circle cx="209" cy="187" r="4" fill="#fffdf7" stroke="#d4ac0d" stroke-width="1"/>
+
+  <!-- Face -->
+  <path d="M94 142 C94 98, 206 98, 206 142 C206 196, 182 238, 150 242 C118 238, 94 196, 94 142 Z" fill="url(#skinY)"/>
+
+  <!-- Soft Cheek Blush -->
+  <ellipse cx="115" cy="186" rx="14" ry="8" fill="#e88d7d" opacity="0.25"/>
+  <ellipse cx="185" cy="186" rx="14" ry="8" fill="#e88d7d" opacity="0.25"/>
+
+  <!-- Eyebrows -->
+  <path d="M110 148 Q124 141 137 146" fill="none" stroke="#3b2314" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M163 146 Q176 141 190 148" fill="none" stroke="#3b2314" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <ellipse cx="124" cy="162" rx="8.5" ry="6.5" fill="#ffffff"/>
+  <ellipse cx="176" cy="162" rx="8.5" ry="6.5" fill="#ffffff"/>
+  <circle cx="124" cy="162" r="4.8" fill="#3b2314"/>
+  <circle cx="176" cy="162" r="4.8" fill="#3b2314"/>
+  <circle cx="125.5" cy="160.5" r="1.6" fill="#ffffff"/>
+  <circle cx="177.5" cy="160.5" r="1.6" fill="#ffffff"/>
+  <path d="M113 160 Q124 152 135 161" fill="none" stroke="#221208" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M165 161 Q176 152 187 160" fill="none" stroke="#221208" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M150 163 L147 186 Q150 190 155 187" fill="none" stroke="#c9936b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Warm Smile -->
+  <path d="M133 204 Q150 217 167 204" fill="none" stroke="#b8544b" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M138 206 Q150 214 162 206" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Front Hair Waves -->
+  <path d="M90 152 C88 112, 118 82, 156 84 C188 84, 212 110, 210 152 C202 124, 178 108, 146 112 C116 116, 98 130, 90 152 Z" fill="url(#hairY)"/>
+</svg>
+
